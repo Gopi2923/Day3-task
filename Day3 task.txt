@@ -1,0 +1,83 @@
+For the given JSON iterate over all for loops (for, for in, for of, forEach)
+
+var numbers = [ 10, 20, 30, 40, 50] 
+for (var i=0; i < numbers.length; i++) {
+   console.log(numbers[i])
+}
+
+var person = {
+   fname: "Nick",
+   lname: "Jonas",
+   age: 26
+}; 
+for (let x in person) {
+   console.log(x + ": "+ person[x])
+}
+
+var names = ["jerry", "tom", "pluto", "micky", "mini"];
+names.forEach(function1);
+function function1(currentValue, index) {
+   console.log("Index in array is: "+index + " ::  Value is: "+currentValue);
+}
+‍
+
+Create your own resume data in JSON format
+
+
+  "basics": {
+    "name": "Gopi D",
+    "label": "Programmer",
+    "image": "",
+    "email": "dgopidhikshan@gmail.com",
+    "phone": "8778801713",
+    "url": "https://gopi.com",
+    "summary": "A summary of Gopi D…",
+    "location": {
+      "address": "Machambut Village",
+      "postalCode": "635808",
+      "city": "Vellore",
+      "countryCode": "In",
+      "region": "Indian"
+    },
+    "profiles": [{
+      "network": "LinkedIn",
+      "username": "Gopi",
+      "url": "https://LinkedIn.com/Gopidhikshan"
+    }]
+  },
+  
+  }],
+  "education": [{
+    "institution": "University",
+    "url": "https://institution.com/",
+    "area": "Software Development",
+    "studyType": "Bachelor",
+    "startDate": "2011-01-01",
+    "endDate": "2013-01-01",
+    "score": "7.1",
+    "courses": [
+      "Web Devlopment"
+    ]
+  }],
+
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Medium"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  
